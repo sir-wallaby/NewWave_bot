@@ -7,6 +7,10 @@
 *.userosscache
 *.sln.docstates
 
+# Data sensitive objects
+NewWave_bot/NewWave_bot/App.config
+NewWave_bot/NewWave_bot/Properties/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
