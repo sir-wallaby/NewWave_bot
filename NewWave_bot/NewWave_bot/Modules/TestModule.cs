@@ -18,14 +18,25 @@ namespace NewWave_bot.Modules
         {
             try
             {
-                await ReplyAsync("test Command Successful");
+                await ReplyAsync(DefineAnewMethod());
             }
             catch ( Exception e)
             {
                 await ReplyAsync(e.ToString());
             }
         }
-        
+
+        public string DefineAnewMethod()
+        {
+
+            String someText;
+            someText = " Hi, I am a  method, I just want to be represented";
+
+            return someText;
+
+        }
+
+
 
     }
 }
